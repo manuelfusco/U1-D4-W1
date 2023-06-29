@@ -1,0 +1,87 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Josefin+Slab:wght@700&family=Montserrat:ital,wght@0,400;0,600;1,400;1,600&family=Outfit:wght@700&family=Poppins:wght@400;700&family=Prata&family=Roboto+Slab:wght@500&family=Roboto:wght@400;700&display=swap");
+body {
+  background-image: url(../img/sfondo.png);
+  background-size: auto;
+  background-repeat: repeat;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+header {
+  background: rgb(0, 119, 136);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 119, 136, 1) 22%,
+    rgba(7, 134, 133, 0.7063200280112045) 76%
+  );
+  margin: 10px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  box-shadow: 5px 5px 3px #666;
+}
+div.logo not.h1 {
+  padding: 2px;
+  font-weight: 400;
+  width: 60%;
+  margin: 0;
+  text-align: center;
+  display: inline-block;
+}
+div.logo > img {
+  width: 200px;
+  margin: 20px;
+}
+
+nav > a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 1px;
+  padding: 2px;
+}
+/* MAIN */
+main {
+  margin: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 3px #666;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+main > article > h2 {
+  font-size: 32px;
+  margin: 10px;
+}
+address {
+  color: #666;
+  margin: 3px;
+}
+div.i-frame {
+  width: 400px;
+}
+div.i-frame + iframe {
+  width: 380px;
+}
+section p {
+  margin: 5px;
+}
+
+ol {
+  margin: 3px;
+  padding: 4px;
+}
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+div.aside-element {
+  background-color: #666;
+  border: solid 0.2px grey;
+  width: 60%;
+  margin: 4px;
+  padding: 5px;
+}
+/* FOOTER */
